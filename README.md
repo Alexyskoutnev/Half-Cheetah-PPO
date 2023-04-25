@@ -5,12 +5,12 @@ Half-Cheetah PPO gait policy trained in Pybullet. Different sets of configuratio
 conda create --name half-cheetah --file requirements.txt
 cd pybullet-gym
 pip install -e .
-```console
-This should install all what needed in the project then run,
+```
+# Activating Conda Enviroment
 ```console
 conda activate half-cheetah
 ```
-Afterwards, you can run the test enviroment by calling,
+# Running the test enviroment
 ```console
 python test.py
 ```
