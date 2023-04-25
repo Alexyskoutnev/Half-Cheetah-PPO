@@ -1,9 +1,13 @@
-How to install dependencies in project
+# How to install dependencies in project
 --------------------------------------
 1. conda create --name half-cheetah --file requirements.txt
 2. cd pybullet-gym
 3. pip install -e .
 This should install all what needed in the project then run,
+```console
 conda activate half-cheetah
+```
 Afterwards, you can run the test enviroment by calling,
+```console
 python test.py
+```
